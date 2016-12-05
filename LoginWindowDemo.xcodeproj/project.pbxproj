@@ -12,6 +12,7 @@
 		329FA3FD1DF54AA500DA4778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA3FB1DF54AA500DA4778 /* Main.storyboard */; };
 		329FA3FF1DF54AA500DA4778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FA3FE1DF54AA500DA4778 /* Assets.xcassets */; };
 		329FA4021DF54AA500DA4778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA4001DF54AA500DA4778 /* LaunchScreen.storyboard */; };
+		329FA40B1DF54FA300DA4778 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA40A1DF54FA300DA4778 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		329FA3FE1DF54AA500DA4778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329FA4011DF54AA500DA4778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329FA4031DF54AA500DA4778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329FA40A1DF54FA300DA4778 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		329FA3F61DF54AA500DA4778 /* LoginWindowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				329FA4091DF54F5B00DA4778 /* Controllers */,
 				329FA3F71DF54AA500DA4778 /* AppDelegate.swift */,
 				329FA3F91DF54AA500DA4778 /* ViewController.swift */,
 				329FA3FB1DF54AA500DA4778 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				329FA4031DF54AA500DA4778 /* Info.plist */,
 			);
 			path = LoginWindowDemo;
+			sourceTree = "<group>";
+		};
+		329FA4091DF54F5B00DA4778 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				329FA40A1DF54FA300DA4778 /* LoginController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				329FA3FA1DF54AA500DA4778 /* ViewController.swift in Sources */,
+				329FA40B1DF54FA300DA4778 /* LoginController.swift in Sources */,
 				329FA3F81DF54AA500DA4778 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
